@@ -37,6 +37,7 @@
     "serve": "node serve",
     "test": "npx grunt",
     "build": "node build.js",
+    "prepare": "npm run build",
     "buildWatch": "node build.js -w",
     "commitReadme": "git add README.md",
     "lint": "eslint --fix -- *.js src/**/*.js test/**/*.js",
